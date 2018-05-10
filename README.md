@@ -1,6 +1,6 @@
 # Start React Redux Upgraded 2018
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and modified be myself.
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and modified by myself.
 
 ## Folder Structure
 
