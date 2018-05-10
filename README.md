@@ -84,6 +84,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
 
-## For more information
+## For more informations
 
 access: [Create React App](https://github.com/facebookincubator/create-react-app)

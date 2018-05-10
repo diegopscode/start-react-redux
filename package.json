@@ -1,7 +1,13 @@
 {
-  "name": "react-webpack-eject",
-  "version": "0.1.0",
-  "private": true,
+  "name": "start-react-redux",
+  "description": "A boilerplate forked from create-react-app modify for me.",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegopscode/start-react-redux"
+  },
+  "author": "Diego Pancera dos Santos",
+  "license": "ISC",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
