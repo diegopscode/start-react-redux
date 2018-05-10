@@ -1,4 +1,4 @@
-# Start React Redux Upgraded 2018
+# Start React Redux - Released May 2018
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and modified by myself.
 
