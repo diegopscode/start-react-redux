@@ -15,12 +15,30 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.css
-    App.js
-    App.test.js
-    index.css
+    actions/
+    assets/
+      images/
+      scss/
+        *.scss
+    components/
+      base/
+      *.jsx
+    containers/
+      *.jsx
+    reducers/
+      index.js
+      modules/
+        *.js
+    route/
+      components/
+      index.js
+    store/
+      index.js
+      config.dev.jsx
+      config.prod.jsx
+    App.jsx
     index.js
-    logo.svg
+    registerServiceWorker.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
