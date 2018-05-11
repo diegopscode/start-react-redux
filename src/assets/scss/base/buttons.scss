@@ -1,0 +1,13 @@
+button, .btn {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    
+    border: none;
+
+    padding: 10px 15px;
+    background-color: $primary-color;
+    color: $bg-primary;
+
+    font-size: 16px;
+}

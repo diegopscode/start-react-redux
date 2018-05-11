@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { fetchAbout } from '@/actions/about'
+import { fetchAbout, setAbout } from '@/actions/about'
 
 class About extends Component {
 
+	constructor(props) {
+		super(props)
+
+		this.onHandleClick = this.onHandleClick.bind(this)
+	}
+
 	componentDidMount() {
 		this.props.fetchAbout()
+	}
+
+	onHandleClick() {
+		this.props.setAbout("About is changed!")
 	}
 
 	render() {
@@ -13,13 +23,16 @@ class About extends Component {
 			<div className="container">
 				<h2 className="title">About</h2>
 				<p className="text">{this.props.about}</p>
+				<br/>
+				<button onClick={this.onHandleClick}>Change About</button>
 			</div>
 		);
 	}
 }
 
 const mapActions = {
-	fetchAbout
+	fetchAbout,
+	setAbout
 }
 
 const mapStates = ({ about }) => {

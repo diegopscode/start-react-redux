@@ -1,3 +1,4 @@
+import { TYPE } from "@/actions/about"
 const initialState = ""
 
 export default function (state = initialState, action) {
@@ -5,7 +6,7 @@ export default function (state = initialState, action) {
   
     switch(type) {
 
-        case "FETCH_ABOUT": {
+        case TYPE.FETCH_ABOUT: {
             return payload
         }
 
