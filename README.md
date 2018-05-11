@@ -32,6 +32,7 @@ my-app/
     route/
       components/
       index.js
+      routes.js
     store/
       index.js
       config.dev.jsx
